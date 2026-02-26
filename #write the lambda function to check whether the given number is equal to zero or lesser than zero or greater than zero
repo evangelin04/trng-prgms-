@@ -1,0 +1,4 @@
+j=lambda j:"zero" if j==0 else "negative" if j<0 else "positive"
+print(j(4))
+print(j(-7))
+print(j(0))

@@ -1,0 +1,2 @@
+a=lambda b,c: "equal" if b==c else "b is greater" if b>c else "c is greater"
+print(a(4,7))

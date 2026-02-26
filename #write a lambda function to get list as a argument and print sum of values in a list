@@ -1,0 +1,2 @@
+a=lambda l:sum(l)
+print(a([1,2,4,3]))

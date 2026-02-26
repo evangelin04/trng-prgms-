@@ -1,0 +1,2 @@
+q=lambda e: "zero" if e==0 else "not zero"
+print(q(7))

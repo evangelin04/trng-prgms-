@@ -1,0 +1,2 @@
+a=lambda d,e: d%e
+print(a(10,4))

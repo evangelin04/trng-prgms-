@@ -1,0 +1,4 @@
+j=lambda r,k: "present" if k in r else "not present"
+print(j([4,7,11,20,54],65))
+q=lambda e,m: "present" if m in e else "not present"
+print(q([4,7,11,20,54],54))

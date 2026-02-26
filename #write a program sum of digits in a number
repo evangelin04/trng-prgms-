@@ -1,0 +1,4 @@
+def sumDigit(num):
+    t=(num%10)+(num//10)
+    print(t)
+sumDigit(87)    

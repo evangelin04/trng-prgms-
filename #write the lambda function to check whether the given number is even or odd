@@ -1,0 +1,4 @@
+q=lambda e: "even" if e%2==0 else "odd"
+print(q(7))
+j=lambda r: "even" if r%2==0 else "odd"
+print(j(4))

@@ -1,0 +1,2 @@
+c=lambda r:r*r*3.14
+print(c(2))

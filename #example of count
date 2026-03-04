@@ -1,0 +1,11 @@
+q=['M','I','N','N','Y']
+x=q.copy()
+print(x)
+
+q=['J','E','N','N','Y']
+x=q.copy()
+print(x)
+
+q=[49,54,47,12,7]
+x=q.copy()
+print(x)

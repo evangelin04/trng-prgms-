@@ -1,0 +1,3 @@
+q=['M','I','N','N','Y']
+x=q.index('N')
+print(x)

@@ -1,0 +1,11 @@
+q=['M','I','N','N','Y']
+q.remove('Y')
+print(q)
+
+q=['J','E','N','N','Y']
+q.remove('E')
+print(q)
+
+q=[49,54,47,12,7]
+q.remove(47)
+print(q)

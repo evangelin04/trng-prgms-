@@ -1,0 +1,15 @@
+q=['M','I','N','N','Y']
+q.insert(3,'Q')
+print(q)
+
+q=['M','I','N','N','Y']
+q.insert(-3,'Q')
+print(q)
+
+q=['J','E','N','N','Y']
+x=q.insert(5,'I')
+print(q)
+
+q=[49,54,47,12,7]
+x=q.insert(2,60)
+print(q)

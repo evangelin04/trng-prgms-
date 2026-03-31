@@ -1,0 +1,21 @@
+def removeAtBegin(self):
+    if self.head is None:
+        print("List is empty")
+        return
+
+    # Only one node
+    if self.head.next == self.head:
+        self.head = None
+        return
+
+    temp = self.head
+
+    # Find last node
+    while temp.next != self.head:
+        temp = temp.next
+
+    # Move head
+    self.head = self.head.next
+
+    # Fix last node
+    temp.next = self.head

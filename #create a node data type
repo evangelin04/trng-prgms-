@@ -1,5 +1,9 @@
+#create a node data type
 class node:
-    def __init__(self,value):
+    def __init__(self,values):
         self.data=value
         self.nextAddress=None
-obj=node(1)
+obj=node(1,2)
+obj.next=obj
+print(obj.data)
+print(obj.next)

@@ -1,0 +1,26 @@
+class queue:
+    def __init__(self,sizeValue):
+        self.queueEntity=[]
+        self.size=sizeValue
+        self.head=None
+        self.tail=None
+    def Enqueue(self,value):
+        self.queueEntity.append(value)
+        if self.head==None:
+          self.head=value
+        self.tail=self.queueEntity[-1]
+    def Dequeue(self):
+        if len(self.Dequeue)>0:
+            self.queueEntity.pop(0)
+            self.head=self.queueEntity[0]
+        else:
+            print("underflow")
+
+realQueue=queue(5)
+realQueue.Enqueue(12)
+realQueue.Enqueue(5)
+realQueue.Enqueue(7)
+realQueue.Enqueue(11)
+realQueue.Enqueue(4)
+print(realQueue.head)
+print(realQueue.tail)
